@@ -18,7 +18,6 @@ process.env.CADUCIDAD_TOKEN = '200h';
 //========================
 process.env.SEED = process.env.SEED || 'secreto-sed-dev'
 
-
 //========================
 //   BASES DE DATOS
 //========================
@@ -35,3 +34,9 @@ if (process.env.NODE_ENV === 'dev') {
 }
 
 process.env.URLDB = urlDB;
+
+//========================
+//   GOOGLE CLIENTID
+//========================
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '849137246543-bbjndietg3qsq0rhmjvvjun9ih69hhjh.apps.googleusercontent.com';

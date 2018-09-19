@@ -1,4 +1,4 @@
-## Apliación REST SERVER
+## Aplicación REST SERVER
 
 Aplicación restserver en Node.js
 
